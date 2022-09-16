@@ -31,23 +31,23 @@
     text-decoration: underline;
 }
 
-.contact h5 {
+.contact h4 {
     font-size: 1.2rem;
     /* margin-left: -80%; */
     margin-top: 1rem;
 }
 
-.social {
+.social .cntme{
     text-align: left;
-    margin-left: 2rem;
+    margin-left: 2.5rem;
 }
 
-#social_media{
+#social_media {
     display: none;
 }
-.cntme {
-    text-align: left;
-    margin-left: 2rem;
+
+.ctn {
+    margin: 0 .8rem;
 }
 
 i {
@@ -58,8 +58,8 @@ i {
     text-decoration: underline;
 }
 
-.footer{
-    background: rgb(7, 7, 54);
+.footer {
+    background: #01324b;
     color: white;
     padding: 1rem;
     text-decoration: none;
@@ -68,21 +68,24 @@ i {
 @media (max-width: 1000px) {
     .contact h4 {
         font-size: 1.5rem;
-        /* margin-left: -55%; */
+        margin-top: -1rem;
         /* display: none; */
     }
+
     .box {
         margin: 0.8rem .8rem;
     }
 }
+
 @media (max-width: 600px) {
     .contact h4 {
         font-size: 1rem;
         margin-left: 1rem;
+        margin-top: -1rem;
         display: none;
     }
 
-    #social_media{
+    #social_media {
         display: inline-block;
         text-decoration: underline;
     }
