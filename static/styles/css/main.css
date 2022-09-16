@@ -17,11 +17,11 @@
     border-radius: 5px;
     border: none;
     box-shadow: 1px 1px 3px rgb(54, 52, 52);
-    margin: 0.8rem .2rem;
+    margin: 0.8rem .8rem;
 }
 
 .contact {
-    text-align: center;
+    text-align: left;
 }
 
 .cont {
@@ -33,7 +33,7 @@
 
 .contact h5 {
     font-size: 1.2rem;
-    margin-left: -80%;
+    /* margin-left: -80%; */
     margin-top: 1rem;
 }
 
@@ -47,6 +47,28 @@
     margin-left: 2rem;
 }
 
-i{
+i {
     font-size: 10rem;
+}
+
+.cntme label {
+    text-decoration: underline;
+}
+
+@media (max-width: 1000px) {
+    .contact h5 {
+        font-size: 1.2rem;
+        /* margin-left: -55%; */
+        /* display: none; */
+    }
+    .box {
+        margin: 0.8rem .8rem;
+    }
+}
+@media (max-width: 600px) {
+    .contact h5 {
+        font-size: 1.2rem;
+        margin-left: 1rem;
+        display: none;
+    }
 }
