@@ -4,18 +4,17 @@
     list-style: none;
     text-decoration: none;
     scroll-behavior: smooth;
-    background-color: green;
 }
 
-html {
-    /* background-color: rgb(247, 245, 242); */
+/* html {
+    background-color: rgb(247, 245, 242);
     margin: 0 1rem;
-}
+} */
 
 .box {
     background: white;
     border-radius: 5px;
     border: none;
     box-shadow: 1px 1px 3px rgb(54, 52, 52);
-    margin: 0.8rem .3rem;
+    margin: 0.8rem .2rem;
 }
